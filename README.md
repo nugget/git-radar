@@ -38,6 +38,13 @@ Add to your `.zshrc`
 export PROMPT="$PROMPT$(git-radar --zsh --fetch) "
 ```
 
+**Csh/Tcsh**
+
+Add to your `.cshrc` or `.tcshrc`
+```csh
+alias precmd "git-radar --bash --fetch"
+```
+
 ## Features
 
 ### Files status
